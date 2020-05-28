@@ -35,4 +35,5 @@ app.use('/task', taskRoutes)
 app.use('/annotator', annotatorRoutes)
 
 app.use('/', router);
-app.listen(4000);
+const PORT = process.env.PORT || 4000
+app.listen(PORT, console.log(`app listening on port ${PORT}`))
