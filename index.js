@@ -26,7 +26,7 @@ var router = express.Router();
 
 router.get('/', function(req, res) {
     console.log('ada')
-    res.json({ message: 'welcome to our upload module apis' });
+    res.json({ message: 'success' });
 });
 
 
